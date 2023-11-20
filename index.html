@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <h1>Calculadora de Renta</h1>
+    <button onclick="solicitarDatos()">Ingresar Datos</button>
+    <div id="datos"></div>
+    <div>
+        <button id="honorario" onclick="seleccionarContrato('Honorario')">Honorario</button>
+        <button id="plazoFijo" onclick="seleccionarContrato('Plazo Fijo/Indefinido')">Plazo Fijo/Indefinido</button>
+    </div>
+    <button onclick="calcularRenta()">Calcular Renta</button>
+    <button onclick="limpiar()">Limpiar</button>
+    <div id="resultado"></div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
